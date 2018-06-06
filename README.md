@@ -3,7 +3,7 @@
 @ns
 @kn
 
-#coffee-machine
+# coffee-machine
 
 ## important ! this project runs on its own already. make sure to run index.html from a localserver in order ot make it work.
 
