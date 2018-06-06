@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MachineCafe Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@0.20.6/dist/web3.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="contract_abi.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+<section class="section">
+    <div class="container">
+        <h1 class="title is-3">
+            Coffee Machine
+        </h1>
+        <p class="subtitle is-4">A cofffee machine running Ethereum. Click the button to record your purchase on the blockchain.</p>
+        <br>
+
+        <p class="is-size-5"><strong>Total sales : </strong><span id="total">0</span></p>
+        <br>
+
+        <a id="buy" class="button is-primary">Buy coffee</a>
+
+        <br>
+        <br>
+        <table class="table is-bordered is-striped is-narrow is-hoverable">
+            <thead>
+                <tr>
+                    <th>Coffee ID</th>
+                    <th>Buyer address</th>
+                </tr>
+            </thead>
+            <tbody id="sales">
+
+            </tbody>
+        </table>
+    </div>
+</section>
+</body>
+</html>
