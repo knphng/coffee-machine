@@ -21,6 +21,10 @@ https://faucet.metamask.io/
 
 request some ethers (multiple times) so you'd have a bank of ether.
 
+:+1: that's it, ready to buy some coffee :+1:
+
+#### For the devs
+
 clone the coffee-machine project :
 run **`npm install`**
 
