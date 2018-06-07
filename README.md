@@ -4,6 +4,13 @@
 @kn
 
 # coffee-machine
+This project includes:
+- the smart contract code,
+- a single html page,
+- and the javascript file to make it work.
+
+This project displays a button to "buy" a coffee, a table with sold coffees and to whom. And the total sales number.
+The table refreshes automatically after a sale, but it encounters some delay due to the time the transaction takes to be validated, approx 10-15 seconds.
 
 ## important ! this project runs on its own already. make sure to run index.html from a localserver in order ot make it work.
 
